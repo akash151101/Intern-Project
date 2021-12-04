@@ -114,11 +114,17 @@ body, html {
 
 
 .order-text-right p{
-    display: inline;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight:normal;
     font-size: 14px;
 }
+
+.order-name{
+    margin-bottom: 0;
+    width: 65%;  
+}
+
 
 .variant-div p{
     background-color: #EFEFEF;
